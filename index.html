@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <title>PixelHunter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body style="background-color: #000000;">
+    <div style="display: block; width: 512px; height: 512px;">
+        <canvas id="world" width="512" height="512"
+            style="background-color: #000000; border:1px solid #c3c3c3;"></canvas>
+    </div>
+    <div class="row">
+        <div class="console-status-label">Status: </div>
+        <div class="console-status-message" id="statusMessage"></div>
+    </div>
+
+    <div class="group">
+        <div class="row">
+            <div class="console-data-label">Initial Prey Count: </div>
+            <div class="console-data-message"><input type="text" id="initialPreyCount"></input></div>
+        </div>
+        <div class="row">
+            <div class="console-data-label">Approx Prey Max Age: </div>
+            <div class="console-data-message"><input type="text" id="maxPreyAge"></input></div>
+        </div>
+
+        <div class="row">
+            <div class="console-data-label">Initial Predator Count: </div>
+            <div class="console-data-message"><input type="text" id="initialPredatorCount"></input></div>
+        </div>
+        <div class="row">
+            <div class="console-data-label">Approx Predator Max Age: </div>
+            <div class="console-data-message"><input type="text" id="maxPredatorAge"></input></div>
+        </div>
+    
+        <div class="row">
+            <input class="console-button" type="button" onclick="runSimulation()" value="Run Simulation"></input>
+        </div>
+    </div>
+
+    <div class="group">
+        <div class="row">
+            <div class="console-data-label">Simulation Tick Count: </div>
+            <div class="console-data-message" id="tick"></div>
+        </div>
+        <div class="row">
+            <div class="console-data-label">Prey Count: </div>
+            <div class="console-data-message" id="preyCount"></div>
+        </div>
+        <div class="row">
+            <div class="console-data-label">Predator Count: </div>
+            <div class="console-data-message" id="predatorCount"></div>
+        </div>
+    </div>
+
+
+    <script src="pixel-hunter.js"></script>
+</body>

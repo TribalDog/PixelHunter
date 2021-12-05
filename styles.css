@@ -1,0 +1,38 @@
+
+
+.group {
+    margin-top: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.row {
+    margin: 8px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.console-status-label {
+    width: 400px;
+    color: yellow;
+    display: inline;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
+.console-status-message {
+    width: 200px;
+    color: yellow;
+    display: inline;
+    font-weight: 300;
+    font-family: 'Courier New', Courier, monospace;
+}
+.console-data-label {
+    width: 400px;
+    color: whitesmoke;
+    display: inline;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
+.console-data-message {
+    width: 200px;
+    color: whitesmoke;
+    display: inline;
+    font-weight: 300;
+    font-family: 'Courier New', Courier, monospace;
+}

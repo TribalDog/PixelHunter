@@ -1,0 +1,25 @@
+These are the original OLD rules
+
+Predator Rules
+1) Can see/smell up to 4 blocks around them with a 33% chance of being seen
+2) Takes 100 ticks to grow to old age
+3) At 60 ticks starts to slow down, half speed per year after 60
+4) One tick to move in territory
+5) 2 ticks per move when hunting for up to 3 ticks, then half speed
+6) Maintains 16x16 territory
+7) Barks when it smells/sees prey per tick on hunt
+8) Barks can be heared 2 blocks around them
+9) Must follow bark when heard and they are over 10 ticks old
+
+Herbivore Rules
+1) Can see/smell predators 8 blocks around them with a 66% chance of hunter being seen
+2) Takes 60 ticks to grow to old age
+3) At 40 ticks, half speed per year after 40
+4) One tick to move in territory
+5) 2 ticks per move when being chased for up to 5 ticks, then half speed
+6) Maintains 128x128 territory
+7) Sounds alarm when predator spotted
+8) ALarm can be heard 3 blocks around them
+9) Must sound alarm if alarm is heard
+
+
